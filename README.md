@@ -22,6 +22,8 @@ Run `python3 scripts/build.py` with reportlab and pypdf installed. Uses Arial an
 
 ## Editorial scope
 
-Traditional ł/l spelling; v, č, š, ž and ŭ. Script and orthography are distinguished explicitly. Historical publication is not automatically evidence of an author's handwritten original. No claim that one person invented łacinka. Exercises are original, not quotations. Poetry extracts are accompanied by new Latin-script transcriptions and original English meaning glosses, not claims of historical Latin editions. Edition 0.2, researched 25 September 2026.
+Traditional ł/l spelling; v, č, š, ž and ŭ. Script and orthography are distinguished explicitly. Historical publication is not automatically evidence of an author's handwritten original. No claim that one person invented łacinka. Exercises are original, not quotations. Poetry is accompanied by new Latin-script transcriptions and original English meaning glosses, not claims of historical Latin editions. Edition 0.3, researched 25 September 2026.
 
-Private repository; no GitHub Pages, deployment or public sharing configured. No public licence is assigned to this edition. External sources retain their own rights.
+Private repository; publication is not enabled. `publishing/` contains an English download-page template and an inactive manual GitHub Pages workflow for later owner-approved publication. No public licence is assigned to this edition. External sources retain their own rights.
+
+Edition 0.3 opens with the complete “Viecier, i sokał, i ja…” on the first interior page, in a modern łacinka transcription. The colophon and website template state that the information is provided solely for educational and research purposes.

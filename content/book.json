@@ -1,14 +1,17 @@
 [
   {
-    "title": "Belarusian Lacinka",
-    "kicker": "A field guide to another alphabet",
-    "paragraphs": [
-      "A small companion for reading and writing Belarusian in Latin letters. All explanations and instructions are in English; Belarusian examples appear in Cyrillic and łacinka.",
-      "This book uses traditional ł/l, modern v, and č, š, ž, ŭ. It is not a passport romanization guide. Historical books may use different conventions.",
-      "Most drills preserve the spelling of the supplied modern Cyrillic word. Classical spelling is shown separately. Changing scripts does not automatically mean changing orthography.",
-      "Follow the stork through the margins: arrival, flight, a nest, a companion, chicks, and a shared sky."
+    "title": "Viecier, i sokał, i ja…",
+    "kicker": "Janka Kupała · 1906-1907",
+    "scene": 1,
+    "poem": [
+      "I viecier, i sokał, i ja -\nSyny adnoj doli-žyccia,\nNavodzim markotnyja my\nI dumy, i piesni adny.",
+      "Razniaŭ viecier krylli svaje,\nLacić, i šumić, i piaje;\nPiaje a svabodzie svajej,\nPiaje a niavoli ludziej.",
+      "Jak viecier, i ja b tak lacieŭ,\nJak viecier, ab tym samym pieŭ,\nJak viecier, svabodny moj duch,\nChoć ruki zakuty ŭ łancuh.",
+      "Pad zorami sokał zavis,\nHladzić pa-arlinamu ŭniz.\nTam sokału svietu nie žal;\nMilej jamu niebnaja dal.",
+      "Jak sokał, i ja b mknuŭ da zor:\nTam sonca, razdolle, prastor;\nBiez žalu b pakinuŭ ziamlu,\nI chatku, i dolu svaju.",
+      "I viecier, i sokał, i ja -\nSyny adnoj doli-žyccia;\nNavodzim markotnyja my\nI dumy, i piesni adny."
     ],
-    "callout": "MD B6 Slim · 105 × 175 mm\nPrivate illustrated edition · 0.2"
+    "poem_note": "Modern łacinka transcription. Source: Belarusian Palichka, knihi.com; collected works, vol. 1 (1995). [12]"
   },
   {
     "title": "Your reading path",
@@ -17,6 +20,10 @@
       [
         "Pages",
         "Explore"
+      ],
+      [
+        "2",
+        "Opening poem by Janka Kupała"
       ],
       [
         "4-7",
@@ -52,6 +59,7 @@
       ]
     ],
     "paragraphs": [
+      "An English-language companion to traditional Belarusian łacinka: ł/l, v, č, š, ž and ŭ. Belarusian examples keep their language; changing scripts does not automatically change spelling. This is not a passport romanization guide.",
       "Start with the alphabet and try the exercises. Then return to the historical pages and poetry. Page numbers include the cover.",
       "The stork's story is an illustrated thread, not an account of the history of the alphabet."
     ],
@@ -722,7 +730,7 @@
       ]
     ],
     "paragraphs": [
-      "These are Belarusian poems you can read in łacinka; the short transcriptions here were made for this book. A poet's connection with Latin-script publishing does not prove that every poem first appeared in that script.",
+      "These are Belarusian poems you can read in łacinka; the opening poem and excerpt transcriptions were made for this book. A poet's connection with Latin-script publishing does not prove that every poem first appeared in that script.",
       "For a historical Latin-script book, explore Kupala's Huślar (1910). Its spelling differs from this reader. Check the specific page rather than silently replacing the letters. [8]",
       "For each new poem, keep four notes: author and title; edition; exact original lines; your own reading and response."
     ],
@@ -756,7 +764,8 @@
       "English explanations, reading transcriptions, glosses and exercises were prepared for this edition. Poetry quotations are credited separately. Cover and stork vignettes are AI-generated watercolor illustrations.",
       "Format: MD B6 Slim, 105 × 175 mm, confirmed by MD PRODUCT. md-product.com/en/products/md-notebook-b6-slim",
       "Print file: landscape A4, two pages per sheet, 100%, single-sided. Cut at the marks and stack in numerical order. Do not select booklet mode. For smaller pasted inserts, use 95%.",
-      "Private illustrated edition 0.2 · 25 September 2026. No public website."
+      "The information provided in this book is intended solely for educational and research purposes. It is not an official language standard. Consult the cited sources for historical and linguistic context.",
+      "Illustrated edition 0.3 · 25 September 2026."
     ],
     "callout": "Belarusian Lacinka\nA small book with room for flight."
   }

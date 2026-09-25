@@ -20,6 +20,8 @@ The book uses English explanations. Belarusian originals remain in Belarusian, w
 
 ## Editorial decisions
 
+- Edition 0.3: the complete 24-line opening poem is transcribed from source [12], retaining its six stanzas and word forms. The author died in 1942; the original poem is public-domain material in life-plus-70 jurisdictions. This is a new script transcription, not a reproduction of the 1995 edition's editorial apparatus. Razniaŭ preserves the supplied spelling Разняў rather than changing it to a classical variant. The excerpt on page 23 remains a reading commentary on the opening poem.
+
 - Ŭ is Latin capital U with breve (U+016C), not Y, Cyrillic Ў or U with macron.
 - Traditional łacinka selected: ł = hard л, l = soft л; modern v, č, š, ž, ŭ.
 - Existing modern Cyrillic spelling is retained in most exercises. Classical alternatives are shown explicitly, e.g. снег/snieh and сьнег/śnieh. Do not imply all writers or all modern Latin texts follow a single norm.

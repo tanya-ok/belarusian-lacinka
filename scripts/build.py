@@ -37,19 +37,21 @@ c.setAuthor('Belarusian Lacinka')
 c.drawImage(str(ROOT/'assets/cover.png'),0,0,width=W,height=H)
 c.showPage()
 
-def p(text,y,style=body,x=9*mm,width=87*mm):
+def p(text,y,style=body,x=9*mm,width=87*mm,floor=49*mm,gap=3.1*mm):
     obj=Paragraph(escape(text).replace('\n','<br/>'),style)
     _,height=obj.wrap(width,H)
-    if y-height<49*mm:
+    if y-height<floor:
         raise ValueError(f'Overflow on page {c.getPageNumber()}: {text[:50]}')
     obj.drawOn(c,x,y-height)
-    return y-height-3.1*mm
+    return y-height-gap
 
 for number,page in enumerate(data,2):
     c.setFillColor(HexColor('#f8f2e5')); c.rect(0,0,W,H,fill=1,stroke=0)
     scene=page.get('scene',min(5,(number-2)//4))
     # Clip a single vignette from the original six-scene watercolor sheet.
-    size=32*mm; left=(W-size)/2; bottom=15*mm
+    size=(22 if 'poem' in page else 32)*mm
+    left=74*mm if 'poem' in page else (W-size)/2
+    bottom=15*mm
     c.saveState()
     clip=c.beginPath();clip.rect(left,bottom,size,size);c.clipPath(clip,stroke=0)
     c.drawImage(str(ROOT/'assets/stork-scenes.png'),left-(scene%3)*size,bottom-(1-scene//3)*size,width=3*size,height=2*size)
@@ -59,6 +61,11 @@ for number,page in enumerate(data,2):
     y=p(page['title'],H-17*mm,title)
     c.setStrokeColor(LINE); c.line(9*mm,y+mm,96*mm,y+mm)
     y-=3*mm
+    if 'poem' in page:
+        verse=ParagraphStyle('verse',parent=body,fontName='Display',fontSize=9,leading=10.8)
+        for stanza in page['poem']:
+            y=p(stanza,y,verse,floor=30*mm,gap=2*mm)
+        p(page['poem_note'],y-2*mm,ParagraphStyle('note',parent=small,fontSize=6,leading=7.7),width=62*mm,floor=15*mm)
     if 'rows' in page:
         rows=[[Paragraph(escape(cell),small) for cell in row] for row in page['rows']]
         table=Table(rows,colWidths=[87*mm/len(rows[0])]*len(rows[0]))

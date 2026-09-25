@@ -1,0 +1,38 @@
+# Inactive template. Move to .github/workflows/pages.yml only after approval.
+name: Publish approved book to GitHub Pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Package only approved public files
+        run: |
+          mkdir -p _site
+          cp publishing/index.html _site/index.html
+          cp assets/cover.png _site/cover.png
+          cp output/pdf/belarusian-lacinka-b6-slim.pdf _site/
+          cp output/pdf/belarusian-lacinka-b6-slim-on-a4.pdf _site/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
