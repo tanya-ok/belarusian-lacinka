@@ -9,6 +9,8 @@ import re
 EDITION = '0.5'
 PUBLIC = {
     'index.html': 'publishing/index.html',
+    'read.html': 'publishing/read.html',
+    'stork-scenes.png': 'assets/stork-scenes.png',
     'sources.html': 'publishing/sources.html',
     'rights.txt': 'publishing/rights.txt',
     'font-license.txt': 'assets/fonts/OFL.txt',
@@ -21,6 +23,7 @@ def input_paths(root):
     files=['content/book.json','research/sources.md','README.md','requirements.txt',
            'publishing/index.html','publishing/rights.txt','publishing/pages.yml.example']
     files += [str(p.relative_to(root)) for p in (root/'scripts').glob('*.py')]
+    files += [str(p.relative_to(root)) for p in (root/'.github/workflows').glob('*.yml')]
     files += [str(p.relative_to(root)) for p in (root/'assets').rglob('*') if p.is_file()]
     return sorted(set(files))
 
@@ -38,6 +41,8 @@ def inline(text):
     return ''.join(pieces)
 
 def finish_release(root):
+    from build_reader import build_reader
+    build_reader(root)
     fragments=[]
     for line in (root/'research/sources.md').read_text().splitlines():
         if not line.strip(): continue

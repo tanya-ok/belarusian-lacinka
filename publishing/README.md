@@ -1,10 +1,10 @@
-# Publication preparation - not enabled
+# Publication
 
-The repository remains private. Nothing here enables Pages or publishes content.
+The owner explicitly approved making the repository public and publishing GitHub Pages. The active manual workflow is `.github/workflows/pages.yml`; the `.example` file remains a reference template. The public site is https://tanya-ok.github.io/belarusian-lacinka/ .
 
 `index.html` is the English download-page template, with the educational and research disclaimer. `pages.yml.example` is an inactive, manual-only GitHub Actions template. The public artifact is allowlisted: index, generated sources page, rights notice, font licence, cover and two approved PDFs. No other repository files are packaged. SHA-256 verification rejects changed inputs or stale outputs. Actions are pinned to verified commit hashes; dependencies are pinned and fonts bundled. This checks consistency, not legal clearance or originality.
 
-When the owner approves publication:
+For subsequent releases:
 
 1. Review all book pages, the Latin transcription, attribution and permissions for public distribution.
 2. Confirm the GitHub plan supports Pages from a private repository. GitHub Free does not support a private repository as a Pages source; Pro or another eligible plan is needed. Do not change repository visibility automatically. A private source repository does not imply the Pages website is private.

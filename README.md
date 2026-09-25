@@ -1,6 +1,8 @@
 # Belarusian Lacinka
 
-Private, independent mini-book about Belarusian Latin script (łacinka), with English explanations, paired Belarusian examples, historical context, poetry extracts and original exercises. Six dedicated watercolor pages follow storks from arrival and flight to nest-building and family life. Text pages have no stork vignettes.
+Independent mini-book about Belarusian Latin script (łacinka), with English explanations, paired Belarusian examples, historical context, poetry extracts and original exercises. Six dedicated watercolor pages follow storks from arrival and flight to nest-building and family life. Text pages have no stork vignettes.
+
+Online reading and downloads: https://tanya-ok.github.io/belarusian-lacinka/ . The repository was made public with the owner's explicit approval. The HTML reader is generated from the same content as the PDF and provides all 34 pages, an accessible contents list and previous/next navigation without third-party scripts.
 
 ## Format
 
@@ -24,6 +26,6 @@ Install `requirements.txt`, then run `python3 scripts/build.py`. Bundled Noto Sa
 
 Traditional ł/l spelling; v, č, š, ž and ŭ. Script and orthography are distinguished explicitly. Historical publication is not automatically evidence of an author's handwritten original. No claim that one person invented łacinka. Exercises are original, not quotations. Kupała's poetry is accompanied by new Latin-script transcriptions and original English meaning glosses, not claims of historical Latin editions. Kołas is recommended but not quoted. Edition 0.5, researched 25 September 2026.
 
-Private repository; publication is not enabled. `publishing/` contains an English download-page template and an inactive manual GitHub Pages workflow for later owner-approved publication. No public licence is assigned to this edition. External sources retain their own rights.
+Public repository; GitHub Pages uses the manual workflow in `.github/workflows/pages.yml`. `publishing/` contains the English reading and download pages, bibliography and notices. Only the nine explicitly allowlisted files are deployed. No open-content licence is assigned to this edition. External sources retain their own rights.
 
 Edition 0.5 opens with the complete “Viecier, i sokał, i ja…” on the first interior page, in a modern łacinka transcription. The colophon and website template state that the information is provided solely for educational and research purposes. See `research/audit-resolution.md` for corrections and remaining review limits. Illustration resolution is about 137 ppi at the current print size; a physical proof is still recommended.
