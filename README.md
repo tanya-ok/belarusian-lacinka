@@ -1,5 +1,7 @@
 # Belarusian Lacinka
 
+[![Read online · Download PDF](https://img.shields.io/badge/Read_online-Download_PDF-5a6c4d?style=for-the-badge)](https://tanya-ok.github.io/belarusian-lacinka/)
+
 Independent mini-book about Belarusian Latin script (łacinka), with English explanations, paired Belarusian examples, historical context, poetry extracts and original exercises. Six dedicated watercolor pages follow storks from arrival and flight to nest-building and family life. Text pages have no stork vignettes.
 
 Online reading and downloads: https://tanya-ok.github.io/belarusian-lacinka/ . The repository was made public with the owner's explicit approval. The HTML reader is generated from the same content as the PDF and provides all 34 pages, an accessible contents list and previous/next navigation without third-party scripts.

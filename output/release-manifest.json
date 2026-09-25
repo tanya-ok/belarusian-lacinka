@@ -2,7 +2,7 @@
   "edition": "0.5",
   "inputs": {
     ".github/workflows/pages.yml": "a83cb51d5a55165e833bb887333d70d43d77dd4d4061e95b1756550fafb642d5",
-    "README.md": "f9c1a693c1498d73276da7c5e857bf5dc3412b9e842f4d69a2b80f363124a8c6",
+    "README.md": "ff7fa0530ec1f93427030a53fde1aae5125ea648dcdbbdb6bf3b0344c4390774",
     "assets/cover-prompt.md": "5f1a7264e063ff2fc7eadd5cc26e189cb21caf9c63860fbf7e7514ebb31cd4bb",
     "assets/cover.png": "2ab2e4e9eaedd59177a031f017c31319611f897c23d0837d761adf4d8d36345e",
     "assets/fonts/NotoSans-Bold.ttf": "c976e4b1b99edc88775377fcc21692ca4bfa46b6d6ca6522bfda505b28ff9d6a",
