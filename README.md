@@ -1,12 +1,12 @@
 # Belarusian Lacinka
 
-Private, independent mini-book about Belarusian Latin script (łacinka), with English explanations, paired Belarusian examples, historical context, poetry extracts and original exercises. Watercolor storks accompany every page, from flight and nest-building to family life.
+Private, independent mini-book about Belarusian Latin script (łacinka), with English explanations, paired Belarusian examples, historical context, poetry extracts and original exercises. Six dedicated watercolor pages follow storks from arrival and flight to nest-building and family life. Text pages have no stork vignettes.
 
 ## Format
 
 - MD PRODUCT B6 Slim, blank: **105 × 175 mm**, not A6 or standard B6.
-- Reader: 28 pages, including the illustrated cover.
-- Print: 14 landscape A4 sheets, two exact-size pages per sheet, crop marks; **100%, single-sided**. Cut and stack by page numbers. This is not a folded booklet imposition.
+- Reader: 34 pages, including the illustrated cover and six standalone illustration pages.
+- Print: 17 landscape A4 sheets, two exact-size pages per sheet, crop marks; **100%, single-sided**. Cut and stack by page numbers. This is not a folded booklet imposition.
 - For inserts smaller than notebook pages, print at 95%.
 
 ## Files

@@ -37,7 +37,7 @@ c.setAuthor('Belarusian Lacinka')
 c.drawImage(str(ROOT/'assets/cover.png'),0,0,width=W,height=H)
 c.showPage()
 
-def p(text,y,style=body,x=9*mm,width=87*mm,floor=49*mm,gap=3.1*mm):
+def p(text,y,style=body,x=9*mm,width=87*mm,floor=20*mm,gap=3.1*mm):
     obj=Paragraph(escape(text).replace('\n','<br/>'),style)
     _,height=obj.wrap(width,H)
     if y-height<floor:
@@ -45,17 +45,23 @@ def p(text,y,style=body,x=9*mm,width=87*mm,floor=49*mm,gap=3.1*mm):
     obj.drawOn(c,x,y-height)
     return y-height-gap
 
-for number,page in enumerate(data,2):
+def illustration_page(scene):
     c.setFillColor(HexColor('#f8f2e5')); c.rect(0,0,W,H,fill=1,stroke=0)
-    scene=page.get('scene',min(5,(number-2)//4))
-    # Clip a single vignette from the original six-scene watercolor sheet.
-    size=(22 if 'poem' in page else 32)*mm
-    left=74*mm if 'poem' in page else (W-size)/2
-    bottom=15*mm
+    # Dedicated art page: enlarge one original cell without altering the asset.
+    size=95*mm; left=(W-size)/2; bottom=(H-size)/2
     c.saveState()
     clip=c.beginPath();clip.rect(left,bottom,size,size);c.clipPath(clip,stroke=0)
     c.drawImage(str(ROOT/'assets/stork-scenes.png'),left-(scene%3)*size,bottom-(1-scene//3)*size,width=3*size,height=2*size)
     c.restoreState()
+    c.setFillColor(MUTED);c.setFont('Body',6)
+    c.drawRightString(96*mm,8*mm,str(c.getPageNumber()))
+    c.showPage()
+
+art_before={4:0,8:1,14:2,18:3,23:4,27:5}
+for number,page in enumerate(data,2):
+    if number in art_before:
+        illustration_page(art_before[number])
+    c.setFillColor(HexColor('#f8f2e5')); c.rect(0,0,W,H,fill=1,stroke=0)
     c.setFillColor(SAGE);c.setFont('Body',6.6)
     c.drawString(9*mm,H-11*mm,page['kicker'].upper())
     y=p(page['title'],H-17*mm,title)
@@ -82,7 +88,7 @@ for number,page in enumerate(data,2):
     c.setStrokeColor(LINE);c.line(9*mm,12*mm,96*mm,12*mm)
     c.setFillColor(MUTED);c.setFont('Body',6)
     c.drawString(9*mm,8*mm,'BELARUSIAN LACINKA')
-    c.drawRightString(96*mm,8*mm,str(number))
+    c.drawRightString(96*mm,8*mm,str(c.getPageNumber()))
     c.showPage()
 c.save()
 
@@ -107,5 +113,5 @@ for start in range(0,len(r.pages),2):
     marks.save();buffer.seek(0);sheet.merge_page(PdfReader(buffer).pages[0])
 out.add_metadata({'/Title':'Belarusian Lacinka - B6 Slim, 2-up A4','/Author':'Belarusian Lacinka'})
 out.write(OUT/'belarusian-lacinka-b6-slim-on-a4.pdf')
-assert len(r.pages)==28
+assert len(r.pages)==34
 for f in sorted(OUT.glob('*.pdf')): print(f)
