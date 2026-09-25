@@ -23,10 +23,10 @@ W,H = 105*mm,175*mm
 INK,SAGE,MUTED,LINE = map(HexColor,['#28231f','#5a6c4d','#766e61','#c9bda7'])
 body = ParagraphStyle('body',fontName='Body',fontSize=8.4,leading=11.6,textColor=INK)
 small = ParagraphStyle('small',parent=body,fontSize=7.1,leading=9)
-title = ParagraphStyle('title',fontName='Bold',fontSize=18,leading=21,textColor=SAGE)
+title = ParagraphStyle('title',fontName='Display',fontSize=18,leading=21,textColor=SAGE)
 source = ROOT/'content/book.json'
 data = json.loads(source.read_text())
-assert len(data) == 23, len(data)
+assert len(data) == 27, len(data)
 # Verify every source glyph before authoring: no silent empty squares.
 for ch in set(source.read_text()):
     if not ch.isspace() and ord(ch)>127:
@@ -40,12 +40,20 @@ c.showPage()
 def p(text,y,style=body,x=9*mm,width=87*mm):
     obj=Paragraph(escape(text).replace('\n','<br/>'),style)
     _,height=obj.wrap(width,H)
-    if y-height<16*mm:
+    if y-height<49*mm:
         raise ValueError(f'Overflow on page {c.getPageNumber()}: {text[:50]}')
     obj.drawOn(c,x,y-height)
     return y-height-3.1*mm
 
 for number,page in enumerate(data,2):
+    c.setFillColor(HexColor('#f8f2e5')); c.rect(0,0,W,H,fill=1,stroke=0)
+    scene=page.get('scene',min(5,(number-2)//4))
+    # Clip a single vignette from the original six-scene watercolor sheet.
+    size=32*mm; left=(W-size)/2; bottom=15*mm
+    c.saveState()
+    clip=c.beginPath();clip.rect(left,bottom,size,size);c.clipPath(clip,stroke=0)
+    c.drawImage(str(ROOT/'assets/stork-scenes.png'),left-(scene%3)*size,bottom-(1-scene//3)*size,width=3*size,height=2*size)
+    c.restoreState()
     c.setFillColor(SAGE);c.setFont('Body',6.6)
     c.drawString(9*mm,H-11*mm,page['kicker'].upper())
     y=p(page['title'],H-17*mm,title)
@@ -54,15 +62,15 @@ for number,page in enumerate(data,2):
     if 'rows' in page:
         rows=[[Paragraph(escape(cell),small) for cell in row] for row in page['rows']]
         table=Table(rows,colWidths=[87*mm/len(rows[0])]*len(rows[0]))
-        table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#eeeade')),('LINEBELOW',(0,0),(-1,-1),.35,LINE),('VALIGN',(0,0),(-1,-1),'TOP'),('TOPPADDING',(0,0),(-1,-1),3),('BOTTOMPADDING',(0,0),(-1,-1),3)]))
+        table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),HexColor('#eeeade')),('LINEBELOW',(0,0),(-1,-1),.35,LINE),('VALIGN',(0,0),(-1,-1),'TOP'),('TOPPADDING',(0,0),(-1,-1),1),('BOTTOMPADDING',(0,0),(-1,-1),1)]))
         _,th=table.wrap(87*mm,H)
         table.drawOn(c,9*mm,y-th); y-=th+4*mm
-    for paragraph in page.get('paragraphs',[]): y=p(paragraph,y,small if number>=23 else body)
+    for paragraph in page.get('paragraphs',[]): y=p(paragraph,y,small if number>=27 else body)
     if 'callout' in page:
         y-=mm
         y=p(page['callout'],y,ParagraphStyle('callout',parent=body,fontName='Italic',textColor=SAGE))
     for line in range(page.get('lines',0)):
-        if y<20*mm: break
+        if y<51*mm: break
         c.setStrokeColor(LINE);c.setLineWidth(.35);c.line(9*mm,y,96*mm,y);y-=7*mm
     c.setStrokeColor(LINE);c.line(9*mm,12*mm,96*mm,12*mm)
     c.setFillColor(MUTED);c.setFont('Body',6)
@@ -92,5 +100,5 @@ for start in range(0,len(r.pages),2):
     marks.save();buffer.seek(0);sheet.merge_page(PdfReader(buffer).pages[0])
 out.add_metadata({'/Title':'Belarusian Lacinka - B6 Slim, 2-up A4','/Author':'Belarusian Lacinka'})
 out.write(OUT/'belarusian-lacinka-b6-slim-on-a4.pdf')
-assert len(r.pages)==24
+assert len(r.pages)==28
 for f in sorted(OUT.glob('*.pdf')): print(f)

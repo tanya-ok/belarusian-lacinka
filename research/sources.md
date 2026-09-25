@@ -1,6 +1,6 @@
 # Research notes · 25 September 2026
 
-The book uses Russian explanations. This file records evidence, editorial decisions and limits. Bibliographic evidence of publication is distinguished from evidence of an autograph.
+The book uses English explanations. Belarusian originals remain in Belarusian, with paired Latin-script readings. This file records evidence, editorial decisions and limits. Bibliographic evidence of publication is distinguished from evidence of an autograph.
 
 1. [Вольга Гарыцкая, Гісторыя беларускіх літар](https://letters.philology.by/), 2016. Historical overview with bibliography. Supports gradual development from late 16th-century records and 17th-century theatre, and the 1859 Dunin-Marcinkievič publication/censorship episode. No unique inventor is identified. The book's conclusion that no single inventor can be named is a synthesis, not an attributed quotation.
 2. [BINiM Canada, Transliteration](https://binim.org/index.php/transliteration/). Institutional chart of traditional łacinka, including ł/l, h/g, ŭ, softened consonants. The site's political and evaluative claims are not adopted as neutral linguistic facts.
@@ -13,6 +13,10 @@ The book uses Russian explanations. This file records evidence, editorial decisi
 9. [Транслитерация белорусского алфавита латиницей](https://ru.wikipedia.org/wiki/Транслитерация_белорусского_алфавита_латиницей). Supplementary comparison: traditional ł/l is not identical to geographical romanization. No assertion about current legal force of particular administrative systems is made.
 10. [MD PRODUCT, MD Notebook B6 Slim](https://md-product.com/en/products/md-notebook-b6-slim). Manufacturer dimensions H175 × W105 × D10 mm. Page format is 105 × 175 mm; it is neither A6 nor ordinary ISO B6.
 11. [Acta Albaruthenica 25 (2025), Radosław Kaleta](https://albaruthenica.uw.edu.pl/wp-content/uploads/sites/210/2026/03/16-Radoslaw-Kaleta-rec-A-2b.pdf). Corroborating example бусел / busieł. Final л is hard; the book consistently uses busieł, not busiel.
+
+12. [Janka Kupała, Viecier, i sokał, i ja…](https://knihi.com/Janka_Kupala/Viecier%2C_i_sokal%2C_i_ja.html). Text attributed to collected works vol. 1, Minsk, 1995. Two-line extract beginning «Як вецер, свабодны мой дух». Other editions vary in the following line; this edition is followed consistently. Latin transcription and English meaning gloss are new, not historical quotations in those forms.
+13. [Janka Kupała, Maja malitva, 1926 collected edition](https://be.wikisource.org/wiki/Збор_твораў_(Купала,_1925—1932)/II/Бацькаўшчыне/Мая_малітва). Specifically the poem beginning «Ва ўсяку мінуту…», not the other poem with this title. Two-line extract beginning «Малюся свабоднаму ветру—віхуры». Latin transcription and English meaning gloss are new. No claim that this specific poem originally appeared in Latin script.
+14. [Jakub Kołas, Symon-muzyka](https://knihi.com/Jakub_Kolas/Symon-muzyka.html). Short two-line extract «Волі, волі і прастору! / Прэч граніцы!». New Latin transcription and original English gloss. No reproduction of the entire work and no assertion that it is public domain in every jurisdiction.
 
 ## Editorial decisions
 

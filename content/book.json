@@ -1,25 +1,763 @@
 [
-{"title":"Беларуская лацінка","kicker":"Как пользоваться книгой","paragraphs":["Короткий путеводитель по чтению и письму. Пояснения даны по-русски, учебные примеры - по-белорусски, кириллицей и лацинкой.","Здесь принят традиционный вариант с ł и l, v и ŭ, č, š, ž. Это не паспортная транслитерация. Исторические издания могли пользоваться другой графикой.","В большинстве упражнений сохраняется привычное современное кириллическое написание. Особенности классического правописания показаны отдельно: замена алфавита сама по себе не означает перехода на тарашкевицу.","Учебные фразы и упражнения составлены для этой книги. Исторические факты снабжены номерами источников; ссылки находятся в конце."],"callout":"MD B6 Slim · 105 × 175 мм\nПервое частное издание · 25.09.2026"},
-{"title":"Маршрут чтения","kicker":"Содержание","rows":[["Страницы","Что внутри"],["4-7","Происхождение, писатели, старые издания"],["8-10","Карта букв и сочетаний"],["11-15","Ŭ, ł/l, мягкость, j/i, варианты"],["16-17","Слова и короткое чтение"],["18-20","Упражнения и ответы"],["21-22","Рукопись и недельная практика"],["23-24","Источники и печать"]],"paragraphs":["Сначала прочитайте страницы 8-14 и попробуйте упражнения. Затем вернитесь к истории: старые обложки и названия книг станут понятнее.","Номера относятся к этой мини-книге, включая обложку. Они не связаны с нумерацией основной многоязычной тетради."],"callout":"Лацинка меняет письмо, а не язык.\nбусел / busieł"},
-{"title":"Кто её изобрёл?","kicker":"01 · История","paragraphs":["Одного установленного изобретателя у белорусской лацинки нет. Это исторически складывавшаяся традиция записи белорусской речи латинскими буквами, а не алфавит, созданный одним человеком в один год. [1, 2]","Первые памятники относят к концу XVI века; в XVII веке белорусские реплики записывали латиницей, в том числе в театральных интермедиях. На раннее письмо сильно влияла польская графика. [1]","В XIX веке лацинка стала заметной частью новой белорусской литературы. Позднее формы букв и способы передачи звуков менялись. Поэтому современную таблицу нельзя механически переносить на всякое старое издание. [1, 2]"],"callout":"Правильнее спрашивать: кто писал, печатал, распространял и упорядочивал лацинку?"},
-{"title":"Люди и книги","kicker":"02 · XIX век","paragraphs":["Вінцэнт Дунін-Марцінкевіч. Его перевод первых двух книг «Пана Тадэвуша» был издан в Вильне в 1859 году латинскими буквами и конфискован. Это пример белорусского перевода, а не польского оригинала Мицкевича. [1, 6]","Францішак Багушэвіч. «Дудка беларуская» вышла в Кракове в 1891 году под именем Мацей Бурачок. «Смык беларускі» вышел в 1894 году под именем Сымон Рэўка з-пад Барысава. Оба сборника были напечатаны лацинкой. [5]","Кастусь Каліноўскі. Редактор и один из авторов «Мужыцкай праўды» (1862-1863). Газета печаталась лацинкой. Его место здесь связано прежде всего с публицистикой и издательской деятельностью. [7]"],"callout":"Различайте автора произведения, редактора газеты и составителя правил письма."},
-{"title":"Цётка и Тарашкевіч","kicker":"03 · Начало XX века","paragraphs":["Цётка (Алаіза Пашкевіч). В издательском объявлении, помещённом в «Жалейке» Янки Купалы 1908 года, указана её книга «Pieršaje cytańnie dla dzietak biełarusaŭ». Рядом перечислен и кириллический вариант. Это конкретное свидетельство издания её текста двумя алфавитами. [6]","Янка Купала. Его творчество также связано с лацинской книжной традицией; следующий после «Жалейки» сборник известен как «Huślar» (1910). Но нельзя по этому заключать, что вся «Жалейка» 1908 года напечатана лацинкой: проверенное издание имеет кириллический основной текст. [6, 8]","Браніслаў Тарашкевіч. Его «Беларуская граматыка для школ» вышла в Вильне в 1918 году кириллицей и лацинкой. Его заслуга - систематизация грамматики и правописания уже существовавшего языка и письма. [4]"],"callout":"«Печатался лацинкой» не всегда значит «сохранился авторский рукописный оригинал лацинкой»."},
-{"title":"Как читать старую книгу","kicker":"04 · Историческая графика","rows":[["В старом тексте можно встретить","В выбранной системе"],["sz","š"],["cz","č"],["ż","ž"],["w","v"]],"paragraphs":["Это ориентиры, а не универсальная таблица исправлений. В разных книгах встречаются разные решения, а историческое правописание отличается от современного. [2, 8]","Сначала запишите автора, название, год и алфавит издания. Затем сравните несколько повторяющихся слов. Не называйте непривычное написание опечаткой до проверки.","Для личной выписки оставляйте две строки: «как в источнике» и «моя современная запись». Историческую цитату не следует незаметно модернизировать."],"callout":"Лацинка - графика. Тарашкевица - система правописания. Это связанные, но разные вещи."},
-{"title":"Карта букв · 1","kicker":"05 · Чтение","rows":[["Лацинка","Кириллица / подсказка"],["A a","а"],["B b","б"],["C c","ц"],["Ć ć","ць, мягкое ц"],["Č č","ч"],["D d","д"],["E e","э"],["F f","ф"],["G g","взрывной ґ; отдельно от h"],["H h","белорусское г"],["I i","і"],["J j","й"],["K k","к"]],"paragraphs":["Базовые соответствия: [2, 3]. Буквы e, c и j не нужно читать по правилам английского языка. Буква g относится к отдельному взрывному звуку и зависит от принятой орфографии слова."],"callout":"г / h · х / ch · ґ / g"},
-{"title":"Карта букв · 2","kicker":"06 · Чтение","rows":[["Лацинка","Кириллица / подсказка"],["L l","мягкое л"],["Ł ł","твёрдое л"],["M m","м"],["N n","н"],["Ń ń","нь"],["O o","о"],["P p","п"],["R r","р"],["S s","с"],["Ś ś","сь"],["Š š","ш"],["T t","т"],["U u","у"],["Ŭ ŭ","ў"],["V v","в"],["Y y","ы"],["Z z · Ź ź · Ž ž","з · зь · ж"]],"paragraphs":["Мягкость перед гласными может выражаться сочетанием с i; мягкость l уже заключена в самой букве. [2, 3]"],"callout":"Не путайте: ł = л, а ŭ = ў."},
-{"title":"Две буквы, один звук","kicker":"07 · Сочетания","rows":[["Сочетание","Пример"],["ch = х","хата / chata"],["dz = дз","дзе / dzie"],["dź = дзь","мядзьведзь / miadźviedź"],["dž = дж","джэм / džem"],["šč = шч","шчупак / ščupak"]],"paragraphs":["Ch, dz и dž читаются как устойчивые сочетания; šč передаёт последовательность ш + ч. Dź показывает мягкость. [2, 3]","Пример «мядзьведзь» дан в классическом правописании. Современное кириллическое «мядзведзь» при сохранении его орфографии будет miadzviedź. Не смешивайте эти два исходных написания в одной строке.","Практика: прочитайте chata, džem, ščupak; закройте правую колонку и восстановите кириллицу."],"callout":"Гачек: č, š, ž.\nАкут: ć, ń, ś, ź.\nБреве: ŭ."},
-{"title":"Буква обложки: Ŭ","kicker":"08 · У нескладовае","paragraphs":["Латинская Ŭ ŭ соответствует белорусской Ў ў. Над U стоит бреве: короткая дуга, а не прямая черта. Это не Y. [2, 3]","Звук ў не образует отдельного слога. Для первого приближения можно вспомнить английское w, но дальше лучше слушать белорусскую речь. [3]"],"rows":[["Кириллица","Лацинка"],["Беларусь","Biełaruś"],["беларусаў","biełarusaŭ"],["слова","słova"],["слоў","słoŭ"],["быў","byŭ"],["воўк","voŭk"]],"callout":"Замечайте букву в готовом слове. Не заменяйте каждое у на ŭ: у / u и ў / ŭ различаются."},
-{"title":"Ł и L: маленькая ловушка","kicker":"09 · Твёрдость и мягкость","rows":[["Твёрдое л: ł","Мягкое л: l"],["лапа / łapa","лямпа / lampa"],["лук / łuk","люк / luk"],["школа / škoła","школьны / školny"],["бусел / busieł","соль / sol"]],"paragraphs":["Последняя буква в busieł твёрдая. В sol звук л мягкий. В словах с li мягкость передаётся обычным l перед i. [2, 3]","После мягкого l для я, е, ё, ю используются a, e, o, u: ля / la, ле / le, лё / lo, лю / lu. Не нужно механически добавлять i.","Если вы знаете польский, особенно внимательно следите за ł: в белорусской лацинке здесь твёрдое л, а не обычное современное польское произношение ł."],"callout":"лес / les · лёд / lod · людзі / ludzi"},
-{"title":"Мягкость: акут или i","kicker":"10 · Ć Ń Ś Ź","paragraphs":["В конце слова мягкость может показывать акут: дзень / dzień, конь / koń, пісаць / pisać. Отдельной буквы для мягкого знака нет. [2, 3]","Перед гласной обычно работает i: ня / nia, ця / cia, ся / sia, зя / zia. Сравните дзень / dzień и дня / dnia.","Не добавляйте одновременно акут и i автоматически: сначала определите позицию согласной и исходное написание."],"rows":[["Кириллица","Лацинка"],["соль","sol"],["конь","koń"],["сябар","siabar"],["ціха","cicha"],["восень","vosień"],["піць","pić"]],"callout":"L уже мягкая: соль / sol.\nДля неё правило с акутом не нужно."},
-{"title":"Я, Е, Ё, Ю","kicker":"11 · Выбор j или i","rows":[["Позиция","Запись"],["Начало слова","я / ja · е / je · ё / jo · ю / ju"],["После гласной","мая / maja · знаю / znaju"],["После согласной","ня / nia · не / nie · нё / nio · ню / niu"],["После мягкого l","ля / la · ле / le · лё / lo · лю / lu"]],"paragraphs":["Отдельное й перед гласной передаётся j. Поэтому апостроф не копируется буквально: сям’я / siamja, аб’ява / abjava, надвор’е / nadvorje. [3]","Удобный порядок: найдите гласную; посмотрите, что перед ней; отдельно проверьте l и разделительное произношение."],"callout":"яма / jama · мая / maja\nняма / niama · лямпа / lampa"},
-{"title":"Один алфавит, варианты","kicker":"12 · Правописание","rows":[["Современная кириллица → запись","Классическая кириллица → запись"],["снег / snieh","сьнег / śnieh"],["свет / sviet","сьвет / śviet"],["песня / piesnia","песьня / pieśnia"]],"paragraphs":["Классическое правописание отражает ассимилятивную мягкость в ряде позиций, где современное её не отмечает. Поэтому разница может начинаться уже в кириллическом оригинале. [3, 4]","В этой книге обе формы показаны явно. Для собственной тетради выберите один основной подход и помечайте чужую орфографию при выписке.","Традиционная лацинка и системы транслитерации географических названий также не тождественны: например, традиционная система различает ł и l. [2, 9]"],"callout":"Сначала решите, какое слово и в каком правописании вы записываете. Потом выбирайте буквы."},
-{"title":"Слова для своей тетради","kicker":"13 · Маленький словарь","rows":[["Кириллица","Лацинка","По-русски"],["бусел","busieł","аист"],["гняздо","hniazdo","гнездо"],["птушка","ptuška","птица"],["раніца","ranica","утро"],["восень","vosień","осень"],["дрэва","dreva","дерево"],["возера","voziera","озеро"],["слова","słova","слово"],["мова","mova","язык"],["кніга","kniha","книга"],["літара","litara","буква"],["дзякуй","dziakuj","спасибо"]],"paragraphs":["Учебный набор для практики правил со страниц 8-14. Перепишите пять слов, затем добавьте одно своё. Ударение в этих записях не обозначено."],"callout":"Моя первая строка:\nбусел / busieł · гняздо / hniazdo"},
-{"title":"Бусел каля хаты","kicker":"14 · Читаем","paragraphs":["Раніца. Каля хаты стаіць дрэва. На дрэве гняздо. У гняздзе бусел. Я гляджу на птушку і пішу ў кнізе: «Добры дзень!»","Ranica. Kala chaty staić dreva. Na drevie hniazdo. U hniazdzie busieł. Ja hladžu na ptušku i pišu ŭ knizie: «Dobry dzień!»","Учебный текст составлен для этой книги; это не литературная цитата. Прочитайте его вслух, затем сравните строки.","Найдите: ch для х; dz и dž; мягкое l; сочетание ie; букву ŭ. Выпишите три слова, которые удалось узнать без кириллической подсказки."],"callout":"Почему kala, но słova?\nВ «каля» л мягкое, в «слова» - твёрдое."},
-{"title":"Попробуйте сами","kicker":"15 · Упражнения","paragraphs":["1. Перепишите лацинкой: хата, бусел, гняздо, воўк, дзень, людзі.","2. Восстановите кириллицу: mała, les, lod, dziakuj, vosień, pišu.","3. Вставьте ł или l: __uk (лук), __uk (люк), busie__ (бусел), so__ (соль).","4. Выберите: яма - jama или iama? Няма - njama или niama? Мая - maja или maia?","5. Запишите два предложения о птице или книге. Сначала кириллицей, затем лацинкой. Сверьте отдельно каждую мягкую согласную."],"lines":8,"callout":"Ответы - на странице 20. Сначала попробуйте без таблицы."},
-{"title":"Читаем внимательнее","kicker":"16 · Ещё пять задач","paragraphs":["6. Найдите ошибку: shata вместо хата; belarus вместо Беларусь; slova вместо слова.","7. Объясните различие: u / ŭ; c / č; s / ś / š.","8. Запишите лацинкой: сям’я, надвор’е, я, ця, лёд.","9. Сохраните правописание каждого оригинала: снег; сьнег; песня; песьня.","10. В старом издании встретились sz и w. Обязательно ли это польский язык? Как проверить свою догадку?"],"lines":9,"callout":"Историческая орфография - повод проверить издание, а не сразу исправлять его."},
-{"title":"Ключ к упражнениям","kicker":"17 · Самопроверка","paragraphs":["1. chata, busieł, hniazdo, voŭk, dzień, ludzi.","2. мала, лес, лёд, дзякуй, восень, пішу.","3. łuk; luk; busieł; sol.","4. jama; niama; maja.","5. Возможный вариант: Гэта кніга. Тут бусел. / Heta kniha. Tut busieł.","6. chata; Biełaruś; słova. Проверьте х, ie, ł и конечное ś.","7. у / ў; ц / ч; с / сь / ш.","8. siamja, nadvorje, ja, cia, lod.","9. snieh; śnieh; piesnia; pieśnia.","10. Нет. Так могла выглядеть историческая белорусская лацинка. Проверьте название, язык самого текста, год и особенности издания."],"callout":"Ошибка полезна, если вы можете назвать правило и написать новый пример."},
-{"title":"Пишем от руки","kicker":"18 · Своя страница","paragraphs":["Пропишите медленно: Ŭ ŭ · Ł ł · Ć ć · Ń ń · Ś ś · Ź ź · Č č · Š š · Ž ž.","Дуга над ŭ, острый акут и угловатый гачек должны различаться. Следите, чтобы штрих у ł не терялся на линии бумаги.","Затем запишите: busieł, hniazdo, Biełaruś. Добавьте дату и одну собственную фразу."],"lines":13,"callout":"Минимальная шапка: дата · тема · источник.\nОставьте свободное место для исправления."},
-{"title":"Семь тихих занятий","kicker":"19 · Личная практика","rows":[["День","10 минут"],["1","Карта букв; пять знакомых слов."],["2","Ŭ и u; три пары слов."],["3","Ł и l; переписать короткую строку."],["4","Ć, ń, ś, ź; конечная мягкость."],["5","J и i; пять слов с я, е, ё, ю."],["6","Прочитать текст про бусла вслух."],["7","Повторить упражнения без подсказки."]],"paragraphs":["После недели выберите одно историческое издание из списка источников. Начните с титульного листа: имя автора, название, место и год печати.","Запишите один вопрос, который хочется исследовать дальше. Не обязательно читать всю старую книгу сразу."],"lines":4,"callout":"Личная цель: прочитать страницу и понять, почему она написана именно так."},
-{"title":"Источники","kicker":"20 · Проверить и почитать","paragraphs":["[1] Вольга Гарыцкая. «Гісторыя беларускіх літар» (2016). Историческая хронология. letters.philology.by","[2] Belarusian Institute of Arts and Sciences, Canada. Transliteration. Таблицы традиционной лацинки. binim.org/index.php/transliteration/","[3] С. Александров, Г. Мыцык. «Беларуский алфавит, буквы и звуки». knihi.com/storage/padrucnik/alfabet_ru.htm","[4] Скарынаўская бібліятэка. «Мова, за якую плацілі жыцьцём: гісторыя Браніслава Тарашкевіча». skaryna.org/be/branislau-taraskievic/","[5] «Беларуская літаратура», учебник: раздел о Багушевиче, с. 72 и раздел о «Смыке». padruchnik.com/books/id01987s/book_0.pdf","[6] «Жалейка» (1908), издательское объявление; Вікікрыніцы. be.wikisource.org/wiki/Жалейка_(1908)"],"callout":"Полные кликабельные ссылки и примечания: research/sources.md в приватном проекте."},
-{"title":"Источники и печать","kicker":"21 · Выходные сведения","paragraphs":["[7] Беларуская асацыяцыя журналістаў. «Мужыцкая праўда»: як у 1862 годзе пачалася беларуская дэмакратычная прэса. baj.media (полная ссылка в research/sources.md).","[8] «Белорусский латинский алфавит» / Belarusian Latin alphabet, справочные статьи Wikipedia: исторические варианты. Использованы как дополнительный обзор, не как доказательство авторского рукописного оригинала.","[9] «Транслитерация белорусского алфавита латиницей», справочная статья Wikipedia: различия систем. Названия и статусы административных стандартов здесь не нормируются.","Формат подтверждён производителем MD PRODUCT: 105 × 175 мм. md-product.com/en/products/md-notebook-b6-slim","Печатный файл: A4, альбомная ориентация, две страницы на листе, 100%. Печать односторонняя, без режима «Брошюра». Резать по меткам, собрать по номерам. Для вклейки можно уменьшить масштаб до 95%.","Обложка создана с помощью генерации изображений; учебные тексты и упражнения подготовлены для этого проекта. Редакция 0.1; материалы для личного использования."],"callout":"Belarusian Lacinka\nЧастный проект · без публичного сайта"}
+  {
+    "title": "Belarusian Lacinka",
+    "kicker": "A field guide to another alphabet",
+    "paragraphs": [
+      "A small companion for reading and writing Belarusian in Latin letters. All explanations and instructions are in English; Belarusian examples appear in Cyrillic and łacinka.",
+      "This book uses traditional ł/l, modern v, and č, š, ž, ŭ. It is not a passport romanization guide. Historical books may use different conventions.",
+      "Most drills preserve the spelling of the supplied modern Cyrillic word. Classical spelling is shown separately. Changing scripts does not automatically mean changing orthography.",
+      "Follow the stork through the margins: arrival, flight, a nest, a companion, chicks, and a shared sky."
+    ],
+    "callout": "MD B6 Slim · 105 × 175 mm\nPrivate illustrated edition · 0.2"
+  },
+  {
+    "title": "Your reading path",
+    "kicker": "Contents",
+    "rows": [
+      [
+        "Pages",
+        "Explore"
+      ],
+      [
+        "4-7",
+        "Origins, writers and old editions"
+      ],
+      [
+        "8-10",
+        "Letters and combinations"
+      ],
+      [
+        "11-15",
+        "Ŭ, ł/l, softness and spelling"
+      ],
+      [
+        "16-17",
+        "Words and a first reading"
+      ],
+      [
+        "18-20",
+        "Practice and answers"
+      ],
+      [
+        "21-22",
+        "Handwriting and a weekly rhythm"
+      ],
+      [
+        "23-26",
+        "Poetry: freedom, spirit and flight"
+      ],
+      [
+        "27-28",
+        "Sources and printing"
+      ]
+    ],
+    "paragraphs": [
+      "Start with the alphabet and try the exercises. Then return to the historical pages and poetry. Page numbers include the cover.",
+      "The stork's story is an illustrated thread, not an account of the history of the alphabet."
+    ],
+    "callout": "A different script. The same language.\nбусел / busieł / stork"
+  },
+  {
+    "title": "Who invented it?",
+    "kicker": "01 · Origins",
+    "paragraphs": [
+      "No single established inventor can be named. Belarusian łacinka developed as a tradition of writing Belarusian in Latin letters, rather than as one person's invention on one particular date. [1, 2]",
+      "Early surviving examples are associated with the late sixteenth century. In the seventeenth century, Belarusian dialogue was recorded in Latin script, including theatrical interludes. Polish graphic conventions strongly influenced early practice. [1]",
+      "During the nineteenth century, łacinka became an important vehicle for modern Belarusian literature. Letters and spelling conventions continued to change; today's chart cannot simply be imposed on every old edition. [1, 2]"
+    ],
+    "callout": "Ask who wrote, printed, circulated and codified it."
+  },
+  {
+    "title": "Writers and books",
+    "kicker": "02 · The nineteenth century",
+    "paragraphs": [
+      "Vincient Dunin-Marcinkievič: his Belarusian translation of the first two books of Pan Tadeusz appeared in Vilnius in 1859 in Latin script and was confiscated. This was the Belarusian translation, not Mickiewicz's Polish original. [1, 6]",
+      "Francišak Bahuševič: Dudka biełaruskaja appeared in Kraków in 1891 under the name Maciej Buračok. Smyk biełaruski followed in 1894 under Symon Reŭka z-pad Barysava. Both were printed in łacinka. [5]",
+      "Kastuś Kalinoŭski: editor and one of the authors of Mužyckaja praŭda (1862-1863), a newspaper printed in Latin script. His role here is chiefly that of publicist and editor. [7]"
+    ],
+    "callout": "An author, an editor and a codifier play different roles."
+  },
+  {
+    "title": "Readers and reformers",
+    "kicker": "03 · The early twentieth century",
+    "paragraphs": [
+      "Ciotka (Ałaiza Paškievič): the publisher's advertisement in Kupala's Žalejka (1908) lists her Pieršaje cytańnie dla dzietak biełarusaŭ alongside a Cyrillic edition. This is evidence of a text published in both scripts. [6]",
+      "Janka Kupała: Huślar (1910) is a concrete example of his poetry in Latin script. This does not make every edition of his work Latin-script: the inspected Žalejka (1908) has a Cyrillic main text. [6, 8]",
+      "Branisłaŭ Taraškievič: his school grammar appeared in Vilnius in 1918 in both scripts. He codified an existing language and writing tradition; he did not invent łacinka from nothing. [4]"
+    ],
+    "callout": "A printed Latin edition is not automatically evidence of a Latin-script autograph."
+  },
+  {
+    "title": "Inside an old edition",
+    "kicker": "04 · Historical spelling",
+    "rows": [
+      [
+        "You may encounter",
+        "Here we use"
+      ],
+      [
+        "sz",
+        "š"
+      ],
+      [
+        "cz",
+        "č"
+      ],
+      [
+        "ż",
+        "ž"
+      ],
+      [
+        "w",
+        "v"
+      ]
+    ],
+    "paragraphs": [
+      "These are reading clues, not universal correction rules. Historical editions differ in both graphic conventions and spelling. [2, 8]",
+      "Record the author, title, date and script. Compare recurring words before calling an unfamiliar spelling a mistake.",
+      "Keep two lines in your notes: 'as printed' and 'my modern rendering'. Never silently modernize a quotation."
+    ],
+    "callout": "Łacinka is a script tradition.\nTaraškievica is an orthographic system."
+  },
+  {
+    "title": "Letters · A to K",
+    "kicker": "05 · A reading map",
+    "rows": [
+      [
+        "Latin",
+        "Cyrillic / reading cue"
+      ],
+      [
+        "A a",
+        "а"
+      ],
+      [
+        "B b",
+        "б"
+      ],
+      [
+        "C c",
+        "ц"
+      ],
+      [
+        "Ć ć",
+        "ць · soft c"
+      ],
+      [
+        "Č č",
+        "ч"
+      ],
+      [
+        "D d",
+        "д"
+      ],
+      [
+        "E e",
+        "э"
+      ],
+      [
+        "F f",
+        "ф"
+      ],
+      [
+        "G g",
+        "ґ · a stop, distinct from h"
+      ],
+      [
+        "H h",
+        "Belarusian г"
+      ],
+      [
+        "I i",
+        "і"
+      ],
+      [
+        "J j",
+        "й"
+      ],
+      [
+        "K k",
+        "к"
+      ]
+    ],
+    "paragraphs": [
+      "Correspondences: [2, 3]. Do not read e, c or j as English letters. The use of g for the separate stop sound depends on the word's orthographic treatment."
+    ],
+    "callout": "г / h · х / ch · ґ / g"
+  },
+  {
+    "title": "Letters · L to Ž",
+    "kicker": "06 · A reading map",
+    "rows": [
+      [
+        "Latin",
+        "Cyrillic / reading cue"
+      ],
+      [
+        "L l",
+        "soft л"
+      ],
+      [
+        "Ł ł",
+        "hard л"
+      ],
+      [
+        "M m",
+        "м"
+      ],
+      [
+        "N n",
+        "н"
+      ],
+      [
+        "Ń ń",
+        "нь"
+      ],
+      [
+        "O o",
+        "о"
+      ],
+      [
+        "P p",
+        "п"
+      ],
+      [
+        "R r",
+        "р"
+      ],
+      [
+        "S s",
+        "с"
+      ],
+      [
+        "Ś ś",
+        "сь"
+      ],
+      [
+        "Š š",
+        "ш"
+      ],
+      [
+        "T t",
+        "т"
+      ],
+      [
+        "U u",
+        "у"
+      ],
+      [
+        "Ŭ ŭ",
+        "ў"
+      ],
+      [
+        "V v",
+        "в"
+      ],
+      [
+        "Y y",
+        "ы"
+      ],
+      [
+        "Z z · Ź ź · Ž ž",
+        "з · зь · ж"
+      ]
+    ],
+    "paragraphs": [
+      "Before a vowel, i may signal softness. The letter l is already soft. [2, 3]"
+    ],
+    "callout": "Remember: ł = л, but ŭ = ў."
+  },
+  {
+    "title": "Letters working together",
+    "kicker": "07 · Combinations",
+    "rows": [
+      [
+        "Combination",
+        "Example"
+      ],
+      [
+        "ch = х",
+        "хата / chata"
+      ],
+      [
+        "dz = дз",
+        "дзе / dzie"
+      ],
+      [
+        "dź = дзь",
+        "мядзьведзь / miadźviedź"
+      ],
+      [
+        "dž = дж",
+        "джэм / džem"
+      ],
+      [
+        "šč = шч",
+        "шчупак / ščupak"
+      ]
+    ],
+    "paragraphs": [
+      "Ch, dz and dž are stable combinations; šč represents a sequence of š + č. Dź marks softness. [2, 3]",
+      "Мядзьведзь is the classical spelling. Preserving modern мядзведзь gives miadzviedź instead. Keep the two source spellings distinct.",
+      "Read chata, džem and ščupak aloud; cover the examples and reconstruct their Cyrillic forms."
+    ],
+    "callout": "Caron: č, š, ž. Acute: ć, ń, ś, ź.\nBreve: ŭ."
+  },
+  {
+    "title": "The cover letter: Ŭ",
+    "kicker": "08 · A sound without a syllable",
+    "rows": [
+      [
+        "Cyrillic",
+        "Łacinka"
+      ],
+      [
+        "Беларусь",
+        "Biełaruś"
+      ],
+      [
+        "беларусаў",
+        "biełarusaŭ"
+      ],
+      [
+        "слова",
+        "słova"
+      ],
+      [
+        "слоў",
+        "słoŭ"
+      ],
+      [
+        "быў",
+        "byŭ"
+      ],
+      [
+        "воўк",
+        "voŭk"
+      ]
+    ],
+    "paragraphs": [
+      "Latin Ŭ ŭ corresponds to Belarusian Ў ў. Its mark is a breve: a small curve, not a straight bar. The base letter is U, not Y. [2, 3]",
+      "Ў does not form a separate syllable. English w offers a rough starting point; listening to Belarusian speech is better. [3]"
+    ],
+    "callout": "У / u and ў / ŭ are different.\nNotice the letter in a complete word."
+  },
+  {
+    "title": "Ł and L",
+    "kicker": "09 · Hard and soft",
+    "rows": [
+      [
+        "Hard л: ł",
+        "Soft л: l"
+      ],
+      [
+        "лапа / łapa",
+        "лямпа / lampa"
+      ],
+      [
+        "лук / łuk",
+        "люк / luk"
+      ],
+      [
+        "школа / škoła",
+        "школьны / školny"
+      ],
+      [
+        "бусел / busieł",
+        "соль / sol"
+      ]
+    ],
+    "paragraphs": [
+      "The last consonant in busieł is hard; in sol it is soft. Before i, soft л is written l. [2, 3]",
+      "After soft l, use a, e, o, u for я, е, ё, ю: ля / la, ле / le, лё / lo, лю / lu. Do not add an extra i mechanically.",
+      "If you know Polish, take special care: Belarusian ł here represents hard л, not the usual modern Polish pronunciation of ł."
+    ],
+    "callout": "лес / les · лёд / lod · людзі / ludzi"
+  },
+  {
+    "title": "Softness: acute or i?",
+    "kicker": "10 · Ć Ń Ś Ź",
+    "rows": [
+      [
+        "Cyrillic",
+        "Łacinka"
+      ],
+      [
+        "соль",
+        "sol"
+      ],
+      [
+        "конь",
+        "koń"
+      ],
+      [
+        "сябар",
+        "siabar"
+      ],
+      [
+        "ціха",
+        "cicha"
+      ],
+      [
+        "восень",
+        "vosień"
+      ],
+      [
+        "піць",
+        "pić"
+      ]
+    ],
+    "paragraphs": [
+      "At a word's end, an acute can mark softness: дзень / dzień, конь / koń, пісаць / pisać. There is no separate letter for ь. [2, 3]",
+      "Before a vowel, i usually does the work: ня / nia, ця / cia, ся / sia, зя / zia. Compare дзень / dzień with дня / dnia.",
+      "Do not add both an acute and i automatically. Check the consonant's position and the source spelling."
+    ],
+    "callout": "L is already soft: соль / sol."
+  },
+  {
+    "title": "Choosing j or i",
+    "kicker": "11 · Я Е Ё Ю",
+    "rows": [
+      [
+        "Position",
+        "Writing"
+      ],
+      [
+        "At the start",
+        "я / ja · е / je · ё / jo · ю / ju"
+      ],
+      [
+        "After a vowel",
+        "мая / maja · знаю / znaju"
+      ],
+      [
+        "After a consonant",
+        "ня / nia · не / nie · нё / nio · ню / niu"
+      ],
+      [
+        "After soft l",
+        "ля / la · ле / le · лё / lo · лю / lu"
+      ]
+    ],
+    "paragraphs": [
+      "A separate й before a vowel is written j. The apostrophe is therefore not copied mechanically: сям’я / siamja, аб’ява / abjava, надвор’е / nadvorje. [3]",
+      "Find the vowel, examine what precedes it, then check separately for l and for a distinct j sound."
+    ],
+    "callout": "яма / jama · мая / maja\nняма / niama · лямпа / lampa"
+  },
+  {
+    "title": "One script, several choices",
+    "kicker": "12 · Orthography",
+    "rows": [
+      [
+        "Modern source / rendering",
+        "Classical source / rendering"
+      ],
+      [
+        "снег / snieh",
+        "сьнег / śnieh"
+      ],
+      [
+        "свет / sviet",
+        "сьвет / śviet"
+      ],
+      [
+        "песня / piesnia",
+        "песьня / pieśnia"
+      ]
+    ],
+    "paragraphs": [
+      "Classical orthography marks assimilative softness in some positions where modern spelling does not. The difference may already exist in the Cyrillic source. [3, 4]",
+      "Choose a main approach for your notebook and label other spellings when quoting them.",
+      "Traditional łacinka is not identical to geographical romanization systems: its distinction between ł and l is one useful sign. [2, 9]"
+    ],
+    "callout": "Choose the source spelling first.\nThen choose the letters."
+  },
+  {
+    "title": "Words to keep",
+    "kicker": "13 · A small word garden",
+    "rows": [
+      [
+        "Cyrillic",
+        "Łacinka",
+        "English"
+      ],
+      [
+        "бусел",
+        "busieł",
+        "stork"
+      ],
+      [
+        "гняздо",
+        "hniazdo",
+        "nest"
+      ],
+      [
+        "птушка",
+        "ptuška",
+        "bird"
+      ],
+      [
+        "раніца",
+        "ranica",
+        "morning"
+      ],
+      [
+        "восень",
+        "vosień",
+        "autumn"
+      ],
+      [
+        "дрэва",
+        "dreva",
+        "tree"
+      ],
+      [
+        "возера",
+        "voziera",
+        "lake"
+      ],
+      [
+        "слова",
+        "słova",
+        "word"
+      ],
+      [
+        "мова",
+        "mova",
+        "language"
+      ],
+      [
+        "кніга",
+        "kniha",
+        "book"
+      ],
+      [
+        "літара",
+        "litara",
+        "letter"
+      ],
+      [
+        "дзякуй",
+        "dziakuj",
+        "thank you"
+      ]
+    ],
+    "paragraphs": [
+      "Copy five words, then add one of your own. Stress is not marked here. Apply the rules on pages 8-14."
+    ],
+    "callout": "A first line:\nбусел / busieł · гняздо / hniazdo"
+  },
+  {
+    "title": "A stork by the house",
+    "kicker": "14 · A first reading",
+    "paragraphs": [
+      "Раніца. Каля хаты стаіць дрэва. На дрэве гняздо. У гняздзе бусел. Я гляджу на птушку і пішу ў кнізе: «Добры дзень!»",
+      "Ranica. Kala chaty staić dreva. Na drevie hniazdo. U hniazdzie busieł. Ja hladžu na ptušku i pišu ŭ knizie: «Dobry dzień!»",
+      "Morning. A tree stands by the house. There is a nest in the tree and a stork in the nest. I look at the bird and write in the book: 'Good day!'",
+      "Original practice text, not a literary quotation. Find ch, dz, dž, soft l, ie and ŭ. Copy three words you recognized without the Cyrillic."
+    ],
+    "callout": "Why kala, but słova?\nThe л in каля is soft; in слова it is hard."
+  },
+  {
+    "title": "Try it yourself",
+    "kicker": "15 · Practice",
+    "paragraphs": [
+      "1. Write in łacinka: хата, бусел, гняздо, воўк, дзень, людзі.",
+      "2. Restore Cyrillic: mała, les, lod, dziakuj, vosień, pišu.",
+      "3. Insert ł or l: __uk (лук), __uk (люк), busie__ (бусел), so__ (соль).",
+      "4. Choose: яма - jama or iama? Няма - njama or niama? Мая - maja or maia?",
+      "5. Write two sentences about a bird or a book. Start in Cyrillic, then use łacinka. Check each soft consonant."
+    ],
+    "lines": 3,
+    "callout": "Answers are on page 20.\nTry first without the chart."
+  },
+  {
+    "title": "Look a little closer",
+    "kicker": "16 · Five more questions",
+    "paragraphs": [
+      "6. Find the error: shata for хата; belarus for Беларусь; slova for слова.",
+      "7. Explain: u / ŭ; c / č; s / ś / š.",
+      "8. Write in łacinka: сям’я, надвор’е, я, ця, лёд.",
+      "9. Preserve each source spelling: снег; сьнег; песня; песьня.",
+      "10. An old edition uses sz and w. Must its language be Polish? How would you check?"
+    ],
+    "lines": 4,
+    "callout": "An unfamiliar spelling is an invitation to investigate."
+  },
+  {
+    "title": "Your answer key",
+    "kicker": "17 · Check and return",
+    "paragraphs": [
+      "1. chata, busieł, hniazdo, voŭk, dzień, ludzi.",
+      "2. мала, лес, лёд, дзякуй, восень, пішу.",
+      "3. łuk; luk; busieł; sol.",
+      "4. jama; niama; maja.",
+      "5. One answer: Гэта кніга. Тут бусел. / Heta kniha. Tut busieł.",
+      "6. chata; Biełaruś; słova. Check х, ie, ł and final ś.",
+      "7. у / ў; ц / ч; с / сь / ш.",
+      "8. siamja, nadvorje, ja, cia, lod.",
+      "9. snieh; śnieh; piesnia; pieśnia.",
+      "10. No. These can be historical łacinka conventions. Check the language, title, date and edition."
+    ],
+    "callout": "Name the rule, then make one new example."
+  },
+  {
+    "title": "Letters by hand",
+    "kicker": "18 · Your own page",
+    "paragraphs": [
+      "Write slowly: Ŭ ŭ · Ł ł · Ć ć · Ń ń · Ś ś · Ź ź · Č č · Š š · Ž ž.",
+      "Keep the curved breve, slanted acute and angled caron distinct. Do not let the stroke of ł disappear into a ruled line.",
+      "Then write busieł, hniazdo and Biełaruś. Add a date and a sentence of your own."
+    ],
+    "lines": 7,
+    "callout": "Date · subject · source\nLeave room to change your mind."
+  },
+  {
+    "title": "Seven quiet sessions",
+    "kicker": "19 · A personal rhythm",
+    "rows": [
+      [
+        "Day",
+        "Ten minutes"
+      ],
+      [
+        "1",
+        "Letters and five familiar words"
+      ],
+      [
+        "2",
+        "Ŭ and u: notice the difference"
+      ],
+      [
+        "3",
+        "Ł and l: copy a short line"
+      ],
+      [
+        "4",
+        "Ć, ń, ś, ź: final softness"
+      ],
+      [
+        "5",
+        "J and i: five vowel examples"
+      ],
+      [
+        "6",
+        "Read the stork passage aloud"
+      ],
+      [
+        "7",
+        "Repeat the drills without help"
+      ]
+    ],
+    "paragraphs": [
+      "Next, try a poem. Start with a few lines, not a whole anthology. Notice which letters now feel familiar.",
+      "Keep one question for later research."
+    ],
+    "lines": 2,
+    "callout": "Read a page. Discover why it looks the way it does."
+  },
+  {
+    "title": "Wind, falcon, and I",
+    "kicker": "20 · Janka Kupała",
+    "paragraphs": [
+      "Вецер, і сокал, і я… / Viecier, i sokał, i ja…",
+      "This is the closest match to the book's theme: flight embodies a spirit that remains free despite constraint. The following excerpt follows the Cyrillic text in Kupala's collected works, volume 1 (1995), as presented by Belarusian Palichka. [12]",
+      "Як вецер, свабодны мой дух,\nХоць рукі закуты ў ланцуг.",
+      "Jak viecier, svabodny moj duch,\nChoć ruki zakuty ŭ łancuh.",
+      "English sense: My spirit is free as the wind, though my hands are chained.",
+      "The łacinka here is our modern reading transcription, not a facsimile of an early edition. Other editions have a different second line; we do not mix them."
+    ],
+    "callout": "v ie c ie r · ŭ · ł\nNotice ie, short ŭ and hard ł.",
+    "scene": 1
+  },
+  {
+    "title": "A prayer to the wind",
+    "kicker": "21 · Janka Kupała",
+    "paragraphs": [
+      "Мая малітва / Maja malitva",
+      "Choose the poem beginning «Ва ўсяку мінуту…». Kupala wrote more than one poem with this title. This one addresses sun, wind, water, sky and the wider world. [13]",
+      "Малюся свабоднаму ветру—віхуры,\nШто лётае птушкай ад краю да краю,",
+      "Malusia svabodnamu vietru-vichury,\nŠto lotaje ptuškaj ad kraju da kraju,",
+      "English sense: I pray to the free whirlwind, flying like a bird from one edge of the world to the other.",
+      "The Cyrillic excerpt follows the 1926 collected-edition text on Wikisource. The łacinka transcription and English sense are prepared for this reader; neither is presented as an original historical translation."
+    ],
+    "callout": "лётае / lotaje · птушкай / ptuškaj\nAfter soft l, ё becomes o.",
+    "scene": 1
+  },
+  {
+    "title": "Freedom and open space",
+    "kicker": "22 · Jakub Kołas",
+    "paragraphs": [
+      "Сымон-музыка / Symon-muzyka",
+      "A passage from a longer poem, rather than a separate lyric. It fits the book's theme through the artist's longing for freedom and room to live and create. [14]",
+      "Волі, волі і прастору!\nПрэч граніцы!",
+      "Voli, voli i prastoru!\nPreč hranicy!",
+      "English sense: Freedom, freedom and open space! Away with boundaries!",
+      "This is a short excerpt. The source inspected is Cyrillic; the łacinka is our modern transcription, not evidence that this edition was originally printed in Latin letters.",
+      "Look for the full passage in the linked source. Read around it to discover who is speaking and what freedom means in the scene."
+    ],
+    "callout": "волі / voli · прастору / prastoru\nWhich word would you keep in your notebook?",
+    "scene": 5
+  },
+  {
+    "title": "A little poetry notebook",
+    "kicker": "23 · Reading beyond the excerpt",
+    "rows": [
+      [
+        "Read for…",
+        "Begin with…"
+      ],
+      [
+        "Inner freedom",
+        "Viecier, i sokał, i ja…"
+      ],
+      [
+        "Sky and spiritual address",
+        "Maja malitva"
+      ],
+      [
+        "An artist's longing",
+        "Symon-muzyka"
+      ]
+    ],
+    "paragraphs": [
+      "These are Belarusian poems you can read in łacinka; the short transcriptions here were made for this book. A poet's connection with Latin-script publishing does not prove that every poem first appeared in that script.",
+      "For a historical Latin-script book, explore Kupala's Huślar (1910). Its spelling differs from this reader. Check the specific page rather than silently replacing the letters. [8]",
+      "For each new poem, keep four notes: author and title; edition; exact original lines; your own reading and response."
+    ],
+    "lines": 2,
+    "callout": "What does flight mean here:\nescape, discovery, return, or belonging?",
+    "scene": 5
+  },
+  {
+    "title": "Sources to explore",
+    "kicker": "24 · Research notes",
+    "paragraphs": [
+      "[1] Volha Haryckaja, History of Belarusian Letters (2016). letters.philology.by",
+      "[2] Belarusian Institute of Arts and Sciences, Canada: Transliteration. binim.org/index.php/transliteration/",
+      "[3] S. Aleksandrov and H. Mycyk: Belarusian alphabet, letters and sounds. knihi.com/storage/padrucnik/alfabet_ru.htm",
+      "[4] Skaryna Library: Branisłaŭ Taraškievič and his grammar. skaryna.org/be/branislau-taraskievic/",
+      "[5] Belarusian Literature textbook, Bahuševič section. padruchnik.com/books/id01987s/book_0.pdf",
+      "[6] Žalejka (1908), publisher's advertisement, Wikisource.",
+      "[7] Belarusian Association of Journalists: Mužyckaja praŭda. baj.media",
+      "[8-9] Supplementary script comparisons: Wikipedia. Historical Latin-page evidence: Huślar (1910), Wikisource, page 64.",
+      "Full clickable references and editorial notes are in research/sources.md."
+    ],
+    "callout": "Consult the edition, not only the title."
+  },
+  {
+    "title": "Poetry & print notes",
+    "kicker": "25 · Colophon",
+    "paragraphs": [
+      "[12] Kupała: Viecier, i sokał, i ja… Belarusian Palichka; collected works, vol. 1 (1995). knihi.com/Janka_Kupala/",
+      "[13] Kupała: Maja malitva, collected edition, vol. II (1926), Wikisource; opening: «Ва ўсяку мінуту…».",
+      "[14] Kołas: Symon-muzyka. knihi.com/Jakub_Kolas/Symon-muzyka.html",
+      "English explanations, reading transcriptions, glosses and exercises were prepared for this edition. Poetry quotations are credited separately. Cover and stork vignettes are AI-generated watercolor illustrations.",
+      "Format: MD B6 Slim, 105 × 175 mm, confirmed by MD PRODUCT. md-product.com/en/products/md-notebook-b6-slim",
+      "Print file: landscape A4, two pages per sheet, 100%, single-sided. Cut at the marks and stack in numerical order. Do not select booklet mode. For smaller pasted inserts, use 95%.",
+      "Private illustrated edition 0.2 · 25 September 2026. No public website."
+    ],
+    "callout": "Belarusian Lacinka\nA small book with room for flight."
+  }
 ]
