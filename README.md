@@ -15,15 +15,15 @@ Private, independent mini-book about Belarusian Latin script (łacinka), with En
 - `research/sources.md`: linked research and claim notes.
 - `assets/cover.png`: generated watercolor stork cover with Ŭ.
 - `assets/cover-prompt.md`: generation provenance and prompt.
-- `scripts/build.py`: reproducible ReportLab/pypdf build (macOS fonts).
+- `scripts/build.py`: portable ReportLab/pypdf build using bundled OFL fonts.
 - `output/pdf/`: print and reading editions.
 
-Run `python3 scripts/build.py` with reportlab and pypdf installed. Uses Arial and Georgia from `/System/Library/Fonts/Supplemental`.
+Install `requirements.txt`, then run `python3 scripts/build.py`. Bundled Noto Sans and Noto Serif are licensed under SIL OFL 1.1; see `assets/fonts/OFL.txt`. Run `python3 scripts/verify_release.py` to reject stale outputs before publication. The build also generates the public bibliography and a SHA-256 release manifest.
 
 ## Editorial scope
 
-Traditional ł/l spelling; v, č, š, ž and ŭ. Script and orthography are distinguished explicitly. Historical publication is not automatically evidence of an author's handwritten original. No claim that one person invented łacinka. Exercises are original, not quotations. Poetry is accompanied by new Latin-script transcriptions and original English meaning glosses, not claims of historical Latin editions. Edition 0.3, researched 25 September 2026.
+Traditional ł/l spelling; v, č, š, ž and ŭ. Script and orthography are distinguished explicitly. Historical publication is not automatically evidence of an author's handwritten original. No claim that one person invented łacinka. Exercises are original, not quotations. Kupała's poetry is accompanied by new Latin-script transcriptions and original English meaning glosses, not claims of historical Latin editions. Kołas is recommended but not quoted. Edition 0.5, researched 25 September 2026.
 
 Private repository; publication is not enabled. `publishing/` contains an English download-page template and an inactive manual GitHub Pages workflow for later owner-approved publication. No public licence is assigned to this edition. External sources retain their own rights.
 
-Edition 0.3 opens with the complete “Viecier, i sokał, i ja…” on the first interior page, in a modern łacinka transcription. The colophon and website template state that the information is provided solely for educational and research purposes.
+Edition 0.5 opens with the complete “Viecier, i sokał, i ja…” on the first interior page, in a modern łacinka transcription. The colophon and website template state that the information is provided solely for educational and research purposes. See `research/audit-resolution.md` for corrections and remaining review limits. Illustration resolution is about 137 ppi at the current print size; a physical proof is still recommended.

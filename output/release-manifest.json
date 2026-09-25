@@ -1,0 +1,43 @@
+{
+  "edition": "0.5",
+  "inputs": {
+    "README.md": "5303f6eb1ec7e04c2f52bd98c02b5a8d0615c65b0b827ddc4fc3dbc737f31b30",
+    "assets/cover-prompt.md": "5f1a7264e063ff2fc7eadd5cc26e189cb21caf9c63860fbf7e7514ebb31cd4bb",
+    "assets/cover.png": "2ab2e4e9eaedd59177a031f017c31319611f897c23d0837d761adf4d8d36345e",
+    "assets/fonts/NotoSans-Bold.ttf": "c976e4b1b99edc88775377fcc21692ca4bfa46b6d6ca6522bfda505b28ff9d6a",
+    "assets/fonts/NotoSans-Italic.ttf": "36cff144df01309dab648bea71baff9bb074026914afe63aeacc8bc90b67a28b",
+    "assets/fonts/NotoSans-Regular.ttf": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+    "assets/fonts/NotoSerif-Regular.ttf": "c8f669ceb2c9c60ccf55198b305e08a997ffca79a38cc7eeb551e643cbe66505",
+    "assets/fonts/OFL.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+    "assets/fonts/README.md": "af584f8264ad3d70c8222bd5f45640725fd8fd0c938b87daaab8d1ee11881ee3",
+    "assets/stork-scenes.png": "46a1dfd038003525844b2584c35c863fd7984873d6d1d7200677b1ba3018a13f",
+    "content/book.json": "033a2a89262ce1709a8685b846f3adb160bef78f0831cb914eb00cd3f701720c",
+    "publishing/index.html": "d10e22e784d3d3c925e6ad97ebb93e470605eb6f70accff747ce3601863a19a1",
+    "publishing/pages.yml.example": "95e87bd0d427863319df872a99464ae22051c760c05746a0949b1c4ffb35470d",
+    "publishing/rights.txt": "c0405b0d83e6231eeefd003ae87acfd312b588d787f16ad17778d59eab13abb0",
+    "requirements.txt": "af8d6eb8b2103d8673b856ba2ba4033da13fdb2f1a0cc1f4e181dfc87f21007a",
+    "research/sources.md": "f1d4b5c905b3ce32678c3765e424e74c0f0671e365604de5c8a61eea7b191116",
+    "scripts/build.py": "b871898361091f002e9b651e3e46983823dc387239a539682048d2b73bb7c0b7",
+    "scripts/check_pdf.py": "eed9902f684b191111387061549463fad6c2a7998a45596790343871fe8242f9",
+    "scripts/release_support.py": "6bc34675d9dee8f8636d634dc46cde67a51d61c77330fd38ffd9a597cb95b44d",
+    "scripts/verify_release.py": "e1617350d8d4662cfbe45c482b3025dd58b0d70f31d237c46d11ea2a2c56b58a"
+  },
+  "outputs": {
+    "assets/cover.png": "2ab2e4e9eaedd59177a031f017c31319611f897c23d0837d761adf4d8d36345e",
+    "assets/fonts/OFL.txt": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+    "output/pdf/belarusian-lacinka-b6-slim-on-a4.pdf": "457ecdb2a5d06e7050f9e290cca1797071056fe3404764fe1efde9bd7a5eb8c0",
+    "output/pdf/belarusian-lacinka-b6-slim.pdf": "21430a762e0115627e0f45723eab86636ffadb547e73e104ffe0af0d8cef106c",
+    "publishing/index.html": "d10e22e784d3d3c925e6ad97ebb93e470605eb6f70accff747ce3601863a19a1",
+    "publishing/rights.txt": "c0405b0d83e6231eeefd003ae87acfd312b588d787f16ad17778d59eab13abb0",
+    "publishing/sources.html": "f720da19ce76904c6fec89750c571a0c15ab023de5541c129839a44b31a426c4"
+  },
+  "public_files": {
+    "index.html": "publishing/index.html",
+    "sources.html": "publishing/sources.html",
+    "rights.txt": "publishing/rights.txt",
+    "font-license.txt": "assets/fonts/OFL.txt",
+    "cover.png": "assets/cover.png",
+    "belarusian-lacinka-b6-slim.pdf": "output/pdf/belarusian-lacinka-b6-slim.pdf",
+    "belarusian-lacinka-b6-slim-on-a4.pdf": "output/pdf/belarusian-lacinka-b6-slim-on-a4.pdf"
+  }
+}

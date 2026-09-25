@@ -1,4 +1,4 @@
-# Research notes · 25 September 2026
+# Research notes · Edition 0.5 · 25 September 2026
 
 The book uses English explanations. Belarusian originals remain in Belarusian, with paired Latin-script readings. This file records evidence, editorial decisions and limits. Bibliographic evidence of publication is distinguished from evidence of an autograph.
 
@@ -12,15 +12,19 @@ The book uses English explanations. Belarusian originals remain in Belarusian, w
 8. [Belarusian Latin alphabet, overview](https://en.wikipedia.org/wiki/Belarusian_Latin_alphabet). Supplementary overview of historical variants and literature. Also verified against [Huślar (1910), page 64](https://be.wikisource.org/wiki/Старонка:Huślar_(1910).pdf/64), which shows an actual Latin-script page. A historical title is retained in its printed form; not normalized automatically.
 9. [Транслитерация белорусского алфавита латиницей](https://ru.wikipedia.org/wiki/Транслитерация_белорусского_алфавита_латиницей). Supplementary comparison: traditional ł/l is not identical to geographical romanization. No assertion about current legal force of particular administrative systems is made.
 10. [MD PRODUCT, MD Notebook B6 Slim](https://md-product.com/en/products/md-notebook-b6-slim). Manufacturer dimensions H175 × W105 × D10 mm. Page format is 105 × 175 mm; it is neither A6 nor ordinary ISO B6.
-11. [Acta Albaruthenica 25 (2025), Radosław Kaleta](https://albaruthenica.uw.edu.pl/wp-content/uploads/sites/210/2026/03/16-Radoslaw-Kaleta-rec-A-2b.pdf). Corroborating example бусел / busieł. Final л is hard; the book consistently uses busieł, not busiel.
+11. [Acta Albaruthenica 25 (2025), Radosław Kaleta](https://doi.org/10.31338/2720-698Xaa.25.16). Corroborating example бусел / busieł. Final л is hard; the book consistently uses busieł, not busiel. The DOI replaces the obsolete direct PDF address; the article belongs to the publisher's volume 25 (2025).
 
 12. [Janka Kupała, Viecier, i sokał, i ja…](https://knihi.com/Janka_Kupala/Viecier%2C_i_sokal%2C_i_ja.html). Text attributed to collected works vol. 1, Minsk, 1995. Two-line extract beginning «Як вецер, свабодны мой дух». Other editions vary in the following line; this edition is followed consistently. Latin transcription and English meaning gloss are new, not historical quotations in those forms.
 13. [Janka Kupała, Maja malitva, 1926 collected edition](https://be.wikisource.org/wiki/Збор_твораў_(Купала,_1925—1932)/II/Бацькаўшчыне/Мая_малітва). Specifically the poem beginning «Ва ўсяку мінуту…», not the other poem with this title. Two-line extract beginning «Малюся свабоднаму ветру—віхуры». Latin transcription and English meaning gloss are new. No claim that this specific poem originally appeared in Latin script.
-14. [Jakub Kołas, Symon-muzyka](https://knihi.com/Jakub_Kolas/Symon-muzyka.html). Short two-line extract «Волі, волі і прастору! / Прэч граніцы!». New Latin transcription and original English gloss. No reproduction of the entire work and no assertion that it is public domain in every jurisdiction.
+14. [Jakub Kołas, Symon-muzyka](https://knihi.com/Jakub_Kolas/Symon-muzyka.html). Reading recommendation only in edition 0.5. The earlier quotation, its Latin transcription and English gloss have been removed pending a jurisdiction-specific rights assessment. No passage is reproduced and no worldwide public-domain status is asserted.
 
 ## Editorial decisions
 
-- Edition 0.3: the complete 24-line opening poem is transcribed from source [12], retaining its six stanzas and word forms. The author died in 1942; the original poem is public-domain material in life-plus-70 jurisdictions. This is a new script transcription, not a reproduction of the 1995 edition's editorial apparatus. Razniaŭ preserves the supplied spelling Разняў rather than changing it to a classical variant. The excerpt on page 23 remains a reading commentary on the opening poem.
+- Edition 0.5: the complete 24-line opening poem is transcribed from source [12], retaining its six stanzas and word forms. The author died in 1942; this editorial assessment concerns the original poem, not worldwide rights in later editions. This is a new script transcription, not a reproduction of the 1995 edition's editorial apparatus. Razniaŭ preserves the supplied spelling Разняў rather than changing it to a classical variant. The excerpt on page 28 remains a reading commentary on the opening poem. The two source em dashes and the dash in vietru—vichury are preserved; blank space replaces the source's typographic stanza separators, deliberately and without changing stanza boundaries.
+- Ciotka's primer is named in an explicitly labelled modern reading: Pieršaje čytańnie dla dzietak biełarusaŭ. The online transcription of the Žalejka advertisement has cytańnie; that spelling is not adopted as modern łacinka and is not treated as conclusive evidence of the printed scan's exact typography.
+- The seventeenth-century theatrical examples follow source [1]. Broad overview timelines may use different selections; no exact early-play date is asserted without a specific edition.
+- Fonts are bundled Noto Sans and Noto Serif under SIL OFL 1.1, with the original licence preserved. Proprietary font embedding is not inherently unlawful; replacing the previous system fonts removes an unresolved licence dependency and makes builds portable.
+- Illustration cells remain at their original resolution: approximately 137 pixels per inch at 95 mm. They may print softly. No claim of 300 dpi quality or artificial upscaling is made; a physical proof is recommended.
 
 - Ŭ is Latin capital U with breve (U+016C), not Y, Cyrillic Ў or U with macron.
 - Traditional łacinka selected: ł = hard л, l = soft л; modern v, č, š, ž, ŭ.

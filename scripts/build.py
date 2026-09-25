@@ -1,6 +1,8 @@
 """Build a 105 x 175 mm reader and a two-up A4 cutting file."""
 from pathlib import Path
 import json
+import re
+from urllib.parse import quote
 from io import BytesIO
 from xml.sax.saxutils import escape
 from reportlab.pdfgen import canvas
@@ -15,8 +17,8 @@ from pypdf import PdfReader, PdfWriter, Transformation
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'output/pdf'
 OUT.mkdir(parents=True, exist_ok=True)
-FONT = Path('/System/Library/Fonts/Supplemental')
-for name, file in [('Body','Arial.ttf'),('Bold','Arial Bold.ttf'),('Italic','Arial Italic.ttf'),('Display','Georgia.ttf')]:
+FONT = ROOT / 'assets/fonts'
+for name, file in [('Body','NotoSans-Regular.ttf'),('Bold','NotoSans-Bold.ttf'),('Italic','NotoSans-Italic.ttf'),('Display','NotoSerif-Regular.ttf')]:
     pdfmetrics.registerFont(TTFont(name, str(FONT / file)))
 pdfmetrics.registerFontFamily('Body',normal='Body',bold='Bold',italic='Italic',boldItalic='Bold')
 W,H = 105*mm,175*mm
@@ -27,10 +29,22 @@ title = ParagraphStyle('title',fontName='Display',fontSize=18,leading=21,textCol
 source = ROOT/'content/book.json'
 data = json.loads(source.read_text())
 assert len(data) == 27, len(data)
+references = {m.group(1):m.group(2) for m in re.finditer(r'^([0-9]+)\. \[[^\]]+\]\((https://[^\s]+)\)[.,]', (ROOT/'research/sources.md').read_text(), re.M)}
+assert len(references)==14, references
+
+def linked_text(text):
+    def link(match):
+        numbers=[]
+        for part in match.group(1).split(','):
+            bounds=[int(n) for n in part.strip().split('-')]
+            numbers.extend(range(bounds[0],bounds[-1]+1))
+        return '['+', '.join('<link href="'+escape(quote(references[str(n)],safe=':/?=&%#'), {'"':'&quot;'})+'" color="#5a6c4d">'+str(n)+'</link>' for n in numbers)+']'
+    return re.sub(r'\[([0-9]+(?:\s*[-,]\s*[0-9]+)*)\]',link,escape(text).replace('\n','<br/>'))
 # Verify every source glyph before authoring: no silent empty squares.
 for ch in set(source.read_text()):
     if not ch.isspace() and ord(ch)>127:
-        assert ord(ch) in pdfmetrics.getFont('Body').face.charToGlyph, repr(ch)
+        for face in ['Body','Bold','Italic','Display']:
+            assert ord(ch) in pdfmetrics.getFont(face).face.charToGlyph, (face,repr(ch))
 c = canvas.Canvas(str(OUT/'belarusian-lacinka-b6-slim.pdf'),pagesize=(W,H),invariant=1)
 c.setTitle('Belarusian Lacinka | MD B6 Slim')
 c.setAuthor('Belarusian Lacinka')
@@ -38,7 +52,7 @@ c.drawImage(str(ROOT/'assets/cover.png'),0,0,width=W,height=H)
 c.showPage()
 
 def p(text,y,style=body,x=9*mm,width=87*mm,floor=20*mm,gap=3.1*mm):
-    obj=Paragraph(escape(text).replace('\n','<br/>'),style)
+    obj=Paragraph(linked_text(text),style)
     _,height=obj.wrap(width,H)
     if y-height<floor:
         raise ValueError(f'Overflow on page {c.getPageNumber()}: {text[:50]}')
@@ -115,3 +129,7 @@ out.add_metadata({'/Title':'Belarusian Lacinka - B6 Slim, 2-up A4','/Author':'Be
 out.write(OUT/'belarusian-lacinka-b6-slim-on-a4.pdf')
 assert len(r.pages)==34
 for f in sorted(OUT.glob('*.pdf')): print(f)
+
+# Build the public bibliography and bind release outputs to their exact inputs.
+from release_support import finish_release
+finish_release(ROOT)
