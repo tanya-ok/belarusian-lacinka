@@ -1,0 +1,24 @@
+# Research notes · 25 September 2026
+
+The book uses Russian explanations. This file records evidence, editorial decisions and limits. Bibliographic evidence of publication is distinguished from evidence of an autograph.
+
+1. [Вольга Гарыцкая, Гісторыя беларускіх літар](https://letters.philology.by/), 2016. Historical overview with bibliography. Supports gradual development from late 16th-century records and 17th-century theatre, and the 1859 Dunin-Marcinkievič publication/censorship episode. No unique inventor is identified. The book's conclusion that no single inventor can be named is a synthesis, not an attributed quotation.
+2. [BINiM Canada, Transliteration](https://binim.org/index.php/transliteration/). Institutional chart of traditional łacinka, including ł/l, h/g, ŭ, softened consonants. The site's political and evaluative claims are not adopted as neutral linguistic facts.
+3. [С. Александров, Г. Мыцык, Беларуский алфавит, буквы и звуки](https://knihi.com/storage/padrucnik/alfabet_ru.htm). Teaching reference for j/i, l and apostrophe handling. Its classical spelling examples are labelled separately. This book is an original concise explanation, not a reproduction of the tutorial.
+4. [Francis Skaryna Belarusian Library and Museum, Мова, за якую плацілі жыцьцём: гісторыя Браніслава Тарашкевіча](https://skaryna.org/be/branislau-taraskievic/). Museum confirms 1918 grammar editions in Cyrillic and Latin and its codifying role. Do not call Taraškievič the inventor of łacinka.
+5. [Беларуская літаратура, textbook PDF](https://padruchnik.com/books/id01987s/book_0.pdf). Section on Bahuševič, p. 72 and subsequent Smyk discussion: Dudka (1891, Kraków), Smyk (1894), Latin printing. Avoid an unqualified place of printing for Smyk because bibliographic discussions contain qualifications.
+6. [Жалейка (1908), Wikisource transcription of the historical edition](https://be.wikisource.org/wiki/Жалейка_(1908)). Publisher's advertisement lists Ciotka's Latin reader, Dudka, Smyk, Hapon and Pan Tadeuš. It is primary evidence of listed editions, not proof of handwritten composition. The book's main text is Cyrillic: do not mislabel the whole edition as Latin.
+7. [Беларуская асацыяцыя журналістаў, Мужыцкая праўда](https://baj.media/be/muzhyckaya-prauda-yak-u-1862-godze-pachalasya-belaruskaya-demakratychnaya-presa/). Context and Latin script of the 1862-1863 newspaper, edited by Kalinoŭski. Authorship was not exclusively his; phrasing is editor and one of the authors.
+8. [Belarusian Latin alphabet, overview](https://en.wikipedia.org/wiki/Belarusian_Latin_alphabet). Supplementary overview of historical variants and literature. Also verified against [Huślar (1910), page 64](https://be.wikisource.org/wiki/Старонка:Huślar_(1910).pdf/64), which shows an actual Latin-script page. A historical title is retained in its printed form; not normalized automatically.
+9. [Транслитерация белорусского алфавита латиницей](https://ru.wikipedia.org/wiki/Транслитерация_белорусского_алфавита_латиницей). Supplementary comparison: traditional ł/l is not identical to geographical romanization. No assertion about current legal force of particular administrative systems is made.
+10. [MD PRODUCT, MD Notebook B6 Slim](https://md-product.com/en/products/md-notebook-b6-slim). Manufacturer dimensions H175 × W105 × D10 mm. Page format is 105 × 175 mm; it is neither A6 nor ordinary ISO B6.
+11. [Acta Albaruthenica 25 (2025), Radosław Kaleta](https://albaruthenica.uw.edu.pl/wp-content/uploads/sites/210/2026/03/16-Radoslaw-Kaleta-rec-A-2b.pdf). Corroborating example бусел / busieł. Final л is hard; the book consistently uses busieł, not busiel.
+
+## Editorial decisions
+
+- Ŭ is Latin capital U with breve (U+016C), not Y, Cyrillic Ў or U with macron.
+- Traditional łacinka selected: ł = hard л, l = soft л; modern v, č, š, ž, ŭ.
+- Existing modern Cyrillic spelling is retained in most exercises. Classical alternatives are shown explicitly, e.g. снег/snieh and сьнег/śnieh. Do not imply all writers or all modern Latin texts follow a single norm.
+- New reading passage, drills, keys and practice plan are original educational material, not historical quotations.
+- No modern author is named without a specific substantiated work or edition. Further expansion can add manuscript facsimiles and exact bibliographic catalogue identifiers.
+- Online sources checked on 2026-09-25. First private editorial edition; no public deployment.
